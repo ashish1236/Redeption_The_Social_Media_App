@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/deletethispost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:background="@drawable/toucheffecta"
+
+        android:text="Delete this post"
+        app:drawableLeftCompat="@drawable/delete"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/shairvia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:background="@drawable/toucheffecta"
+
+        android:text="@string/share_this_post"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deletethispost"
+
+        app:drawableStartCompat="@drawable/shair2"/>
+
+    <TextView
+        android:id="@+id/turnoffcomment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:text="@string/turn_off_commenting"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/toucheffecta"
+
+        app:drawableLeftCompat="@drawable/comment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shairvia"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

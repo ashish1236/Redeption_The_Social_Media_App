@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/folowingprofilepohoto"
+        android:layout_width="@dimen/_50mdp"
+        android:layout_height="@dimen/_50mdp"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        app:riv_border_width="0.1dp"
+        app:riv_border_color="@color/border"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aptavatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="4dp" />
+    <View
+        android:id="@+id/online"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/onlinedot"
+        app:layout_constraintBottom_toBottomOf="@+id/folowingprofilepohoto"
+        app:layout_constraintEnd_toEndOf="@+id/folowingprofilepohoto" />
+
+
+    <TextView
+        android:id="@+id/folowingname"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/folowingprofilepohoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/folowingprofilepohoto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

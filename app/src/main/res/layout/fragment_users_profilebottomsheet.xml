@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Bottom_sheets.UsersProfilebottomsheetFragment">
+
+
+    <TextView
+        android:id="@+id/blockuser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:text="@string/block_user"
+        android:background="@drawable/toucheffecta"
+
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/unfollow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="30dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:text="@string/unfollow"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/toucheffecta"
+
+        app:drawableLeftCompat="@drawable/unfollow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blockuser" />
+
+    <TextView
+        android:id="@+id/copyprofilelink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/toucheffecta"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:text="Copy profile link"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+app:layout_constraintBottom_toTopOf="@+id/report"
+        app:drawableLeftCompat="@drawable/copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unfollow" />
+
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:text="@string/report_profile"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/toucheffecta"
+
+        app:drawableLeftCompat="@drawable/report"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/copyprofilelink" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

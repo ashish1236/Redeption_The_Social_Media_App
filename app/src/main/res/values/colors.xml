@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0040FF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="rvcolor">#e1e6ec</color>
+
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="rvcolorondark">#e1e6ec</color>
+    <color name="colorAcent">#31456a</color>
+    <color name="uibackground">#FFFFFF</color>
+
+    <color name="NEAVYBLUE">#060673</color>
+
+    <color name="red">#E53935</color>
+    <color name="lightred">#fb5d6b</color>
+    <color name="volit">#a291c2</color>
+    <color name="skyblue">#29a3eb</color>
+
+
+    <!-- ui colors-->
+    <color name="maincolor">#5579C6</color>
+    <color name="dark">#31456a</color>
+    <color name="gray2">#f0f0f0</color>
+    <color name="border">#DADADA</color>
+    <color name="lightgreen">#ECF8F6</color>
+    <color name="iconscolor">#000000</color>
+    <color name="button">#00ACFF</color>
+    <color name="removebt">#FF0000</color>
+    <color name="buttontint">#CE125B</color>
+    <color name="linktextcolor">#311B92</color>
+    <color name="textbg">#25000000</color>
+    <color name="textcolor">#000000</color>
+    <color name="highlights">#FFFFFF</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

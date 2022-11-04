@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Redeption</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notification</string>
+    <string name="addpost">Add Post</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    "Material is the metaphor.\n\n"
+
+    "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+    "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+    "technologically advanced and open to imagination and magic.\n"
+    "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+    "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+    "flexibility of the material creates new affordances that supercede those in the physical "
+    "world, without breaking the rules of physics.\n"
+    "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+    "interact, and exist in space and in relation to each other. Realistic lighting shows "
+    "seams, divides space, and indicates moving parts.\n\n"
+
+    "Bold, graphic, intentional.\n\n"
+
+    "The foundational elements of print based design typography, grids, space, scale, color, "
+    "and use of imagery guide visual treatments. These elements do far more than please the "
+    "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+    "imagery, large scale typography, and intentional white space create a bold and graphic "
+    "interface that immerse the user in the experience.\n"
+    "An emphasis on user actions makes core functionality immediately apparent and provides "
+    "waypoints for the user.\n\n"
+
+    "Motion provides meaning.\n\n"
+
+    "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+    "inflection points that initiate motion, transforming the whole design.\n"
+    "All action takes place in a single environment. Objects are presented to the user without "
+    "breaking the continuity of experience even as they transform and reorganize.\n"
+    "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+    "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+    "3D world.\n\n"
+
+    "The material environment is a 3D space, which means all objects have x, y, and z "
+    "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+    "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+    "position along the z-axis and has a standard 1dp thickness.\n"
+    "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+    "emulated by manipulating the y-axis.\n\n"
+
+    "Light and shadow.\n\n"
+
+    "Within the material environment, virtual lights illuminate the scene. Key lights create "
+    "directional shadows, while ambient light creates soft shadows from all angles.\n"
+    "Shadows in the material environment are cast by these two light sources. In Android "
+    "development, shadows occur when light sources are blocked by sheets of material at "
+    "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+    "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+    "Resting elevation.\n\n"
+
+    "All material objects, regardless of size, have a resting elevation, or default elevation "
+    "that does not change. If an object changes elevation, it should return to its resting "
+    "elevation as soon as possible.\n\n"
+
+    "Component elevations.\n\n"
+
+    "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+    "does not vary from 6dp in one app to 16dp in another app).\n"
+    "Components may have different resting elevations across platforms, depending on the depth "
+    "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+    "Responsive elevation and dynamic elevation offsets.\n\n"
+
+    "Some component types have responsive elevation, meaning they change elevation in response "
+    "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+    "changes are consistently implemented using dynamic elevation offsets.\n"
+    "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+    "to the component’s resting state. They ensure that elevation changes are consistent "
+    "across actions and component types. For example, all components that lift on press have "
+    "the same elevation change relative to their resting elevation.\n"
+    "Once the input event is completed or cancelled, the component will return to its resting "
+    "elevation.\n\n"
+
+    "Avoiding elevation interference.\n\n"
+
+    "Components with responsive elevations may encounter other components as they move between "
+    "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+    "through other material, components avoid interfering with one another any number of ways, "
+    "whether on a per component basis or using the entire app layout.\n"
+    "On a component level, components can move or be removed before they cause interference. "
+    "For example, a floating action button (FAB) can disappear or move off screen before a "
+    "user picks up a card, or it can move if a snackbar appears.\n"
+    "On the layout level, design your app layout to minimize opportunities for interference. "
+    "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+    "when a user tries to pick up one of cards.\n\n"
+
+    <string name="user_text_agreement">By clicking Sign Up,you agree to our Terms, Data Policy and Cookie Policy.</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="already_have_an_account">Already have an Account</string>
+    <string name="login_here">Login Here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="deleted_posts">Deleted Posts</string>
+    <string name="change_profile_pohoto">Change Profile Pohoto</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="bio">Bio</string>
+
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="website">Website</string>
+    <string name="edit_pesonal_details">Edit personal details</string>
+    <string name="settings">Settings</string>
+    <string name="we_will_send_link_for_forgot_password_on_this_email_address">We will send link for forgot password on this Email address</string>
+    <string name="send_link">Send link</string>
+    <string name="only_my_followers">Only my followers</string>
+    <string name="Space_friends">Space friends</string>
+    <string name="only_thoes_who_are_in_my_space" />
+    <string name="space">only_thoes who are in my space</string>
+    <string name="apply">Apply</string>
+    <string name="who_can_comment_on_your_posts">Who can comment on your posts ?</string>
+    <string name="anyone_can">Anyone can</string>
+    <string name="who_can_see_your_posts">Who can see your posts ?</string>
+    <string name="blocked_users">Blocked users</string>
+    <string name="emailcreateaccount">Email address</string>
+    <string name="namecreateaccount">Name</string>
+    <string name="numberdd">Number</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="block_user">Block user</string>
+    <string name="report_post">Report post</string>
+    <string name="remove_this_post">Remove this post</string>
+    <string name="share_this_post">Share this post</string>
+    <string name="add_user_in_your_space">Add user in your Space</string>
+    <string name="turn_off_commenting">Turn off commenting</string>
+    <string name="myspace">Myspace</string>
+    <string name="report_profile">Report profile</string>
+    <string name="unblock">Unblock</string>
+    <string name="block">Block</string>
+    <string name="login">Login</string>
+    <string name="delete_post">Delete post</string>
+    <string name="violence">Violence</string>
+    <string name="nudity_or_sexual_content">Nudity or sexual content</string>
+    <string name="hate_speech">Hate speech</string>
+    <string name="i_am_not_interested">I am not interested</string>
+    <string name="scam_or_fraud">Scam or fraud</string>
+    <string name="wrong_information">Wrong information</string>
+    <string name="reportfeedbacktoast">Thanks for reporting we will take action soon</string>
+    <string name="pending">Pending</string>
+    <string name="harassment_or_bullying">Harassment or Bullying</string>
+    <string name="fake_account">Fake account</string>
+    <string name="follow">Follow</string>
+    <string name="save_post">Save post</string>
+    <string name="title_activity_storuview">StoruviewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

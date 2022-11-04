@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/profilepohoto"
+        android:layout_width="@dimen/_50mdp"
+        android:layout_height="@dimen/_50mdp"
+        android:paddingBottom="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="4dp"
+        app:riv_border_color="@color/border"
+        app:riv_border_width="0.1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aptavatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="4dp" />
+    <View
+        android:id="@+id/online"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/onlinedot"
+        app:layout_constraintBottom_toBottomOf="@+id/profilepohoto"
+        app:layout_constraintEnd_toEndOf="@+id/profilepohoto" />
+
+    <TextView
+        android:id="@+id/follwersname"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:fontFamily="@font/roboto"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profilepohoto"
+        app:layout_constraintStart_toStartOf="@+id/profilepohoto"
+        app:layout_constraintTop_toBottomOf="@+id/profilepohoto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

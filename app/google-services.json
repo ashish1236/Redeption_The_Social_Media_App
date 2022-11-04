@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "165404555080",
+    "firebase_url": "https://friendspace-a95d0-default-rtdb.firebaseio.com",
+    "project_id": "friendspace-a95d0",
+    "storage_bucket": "friendspace-a95d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165404555080:android:8ea8b5f78e1cd99bd4257d",
+        "android_client_info": {
+          "package_name": "com.menga.Redeption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165404555080-87megv4s9o0cjtneacmu9feotje7q1l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlyDw15en6BWGtJFqVc_aXpFhebXTaRgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165404555080-87megv4s9o0cjtneacmu9feotje7q1l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165404555080:android:f18a0939192bb88ad4257d",
+        "android_client_info": {
+          "package_name": "com.menga.friendspacefinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165404555080-87megv4s9o0cjtneacmu9feotje7q1l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlyDw15en6BWGtJFqVc_aXpFhebXTaRgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165404555080-87megv4s9o0cjtneacmu9feotje7q1l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

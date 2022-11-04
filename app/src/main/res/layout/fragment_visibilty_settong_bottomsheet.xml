@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Bottom_sheets.Visibilty_settong_bottomsheet">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/always"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/toucheffecta"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Always visibel"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        app:drawableLeftCompat="@drawable/always"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/never"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/toucheffecta"
+
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Never visibel"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/never"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/always" />
+
+    <TextView
+        android:id="@+id/whenonline"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/toucheffecta"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="When active"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/present"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/never" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

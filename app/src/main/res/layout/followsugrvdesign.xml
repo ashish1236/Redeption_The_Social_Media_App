@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/white">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/profilepohoto"
+        android:layout_width="@dimen/_80mdp"
+        android:layout_height="@dimen/_80mdp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_border_color="@color/border"
+        app:riv_border_width="0.1dp"
+        app:riv_corner_radius="4dp" />
+
+    <View
+        android:id="@+id/online"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/onlinedot"
+        app:layout_constraintBottom_toBottomOf="@+id/profilepohoto"
+        app:layout_constraintEnd_toEndOf="@+id/profilepohoto" />
+
+    <TextView
+        android:id="@+id/follwersname"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/roboto"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="Meenakshi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/profilepohoto"
+        app:layout_constraintStart_toStartOf="@+id/profilepohoto"
+        app:layout_constraintTop_toBottomOf="@+id/profilepohoto" />
+
+    <Button
+        android:id="@+id/followbtn"
+        android:layout_width="@dimen/_60mdp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/followbtnlayout"
+        android:fontFamily="@font/roboto"
+        android:text="Follow"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profilepohoto"
+        app:layout_constraintStart_toStartOf="@+id/profilepohoto"
+        app:layout_constraintTop_toBottomOf="@+id/follwersname" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
